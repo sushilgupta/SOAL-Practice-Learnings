@@ -1,0 +1,6 @@
+var myAge;
+myAge = 28
+//adding a variable  and storing value in it
+
+var herAge;
+herAge = myAge;
