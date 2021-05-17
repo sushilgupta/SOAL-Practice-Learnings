@@ -14,5 +14,23 @@ div{
     margin: 15px;
     font-size: 18;
     border-block: 1px;
+}
+#head{
+    color: saddlebrown;
+    background-color:seashell;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    margin: 30px;
+    padding: 100px;
+}
 
+.heads{
+    height: auto;
+    width: fit-content;
+    color: rgb(73, 139, 19);
+    background-color: yellowgreen;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 500;
+    margin: 30px;
+    padding: 100px;
 }
