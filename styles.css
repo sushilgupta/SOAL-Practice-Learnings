@@ -5,3 +5,14 @@ h1{
     justify-content: flex-start;
     text-align: center;
 }
+
+div{
+    background-color: coral;
+    width: 200px;
+    height: 150px;
+    padding: 20px;
+    margin: 15px;
+    font-size: 18;
+    border-block: 1px;
+
+}
