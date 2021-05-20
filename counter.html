@@ -4,17 +4,23 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Counter (JS)</title>
+    <title>Counter</title>
     <script>
         let counter = 0;
+
         function count() {
             counter = counter + 1;
-            alert(counter);
+            document.querySelector('h1').innerHTML = counter;
+
+            if (counter % 10 === 0) {
+                alert(`You have counted till ${counter}`);
+            }
+
         }
     </script>
 </head>
 <body>
-    <H1>Hello, World!</H1>
-    <button onclick="count()">Click Me</button>
+    <h1>0</h1>
+    <button onclick="count()">Count</button>
 </body>
 </html>
