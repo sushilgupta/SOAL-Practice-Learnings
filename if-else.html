@@ -7,16 +7,17 @@
     <title>If & Else - JavaScript</title>
     <script>
         function music() {
-            if (document.querySelector('h1').innerHTML === 'Agni') {
-                document.querySelector('h1').innerHTML = 'ACDC';
+            const docx = document.querySelector('h1');
+            if (docx.innerHTML === 'Agni') {
+                docx.innerHTML = 'ACDC';
             } else {
-            document.querySelector('h1').innerHTML = 'Agni';
+            docx.innerHTML = 'Agni';
         }
     }
     </script>
 </head>
 <body>
     <h1>Agni</h1>
-    <button onclick="music()">Click Here</button>
+    <button onclick="music()">Click Here!</button>
 </body>
 </html>
