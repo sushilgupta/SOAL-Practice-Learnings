@@ -15,12 +15,26 @@
             if (counter % 10 === 0) {
                 alert(`You have counted till ${counter}`);
             }
-
         }
+
+       document.addEventListener('DOMContentLoaded', function() {
+           document.querySelector('button').onclick = count;
+       })
     </script>
+    <style>
+        button{
+            color: black;
+            margin: 20px;
+            padding: 10px;
+            background-color: white;
+            font-size: large;
+            font-family: Arial, Helvetica, sans-serif;
+            font-style: oblique;
+        }
+    </style>
 </head>
 <body>
     <h1>0</h1>
-    <button onclick="count()">Count</button>
+    <button>Count</button>
 </body>
 </html>
