@@ -20,3 +20,22 @@ let myVar = 10;
 myVar--;
 //Decreasing value of a variable by 1
 
+let a = 10;
+let b = 11;
+
+//Adding value to a variable using the += operator
+a += 1;
+b += 3;
+
+//Decreasing value of a variable using -= operator
+a -= 3;
+b -= 1;
+
+//Multiplying value of a variable using *= operator
+a *= 2;
+b *= 4;
+
+//Dividing value of a variable using /= operator
+a /= 2;
+b /= 2;
+
