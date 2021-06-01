@@ -27,17 +27,17 @@ let b = 11;
 a += 1;
 b += 3;
 
-//Decreasing value of a variable using -= operator
+//Decreasing value of a variable using -= operator.
 a -= 3;
 b -= 1;
 
-//Multiplying value of a variable using *= operator
+//Multiplying value of a variable using *= operator.
 a *= 2;
 b *= 4;
 
-//Dividing value of a variable using /= operator
+//Dividing value of a variable using /= operator.
 a /= 2;
 b /= 2;
 
-//Collection of arrays..
+//Collection of arrays.....
 let empDetails = ["Sushil", "Gupta", "AP810", 29];
