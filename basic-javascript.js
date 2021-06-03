@@ -41,3 +41,11 @@ b /= 2;
 
 //Collection of arrays.....
 let empDetails = ["Sushil", "Gupta", "AP810", 29];
+
+
+//Declaraing a varaible with values and then adding creating another variable andd adding index 0 of first variable
+let myArray = [10,20,30];
+myArray[0];
+let myData = myArray[0];
+
+
