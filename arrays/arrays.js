@@ -6,7 +6,10 @@ let emp = ["Sushil", "Gupta", 29];
 let myArray = ['Sushil', 'Guru'];
 let newArray = myArray[1];
 
-//Pushimg data into an existing Array
+//Pushing data into an existing Array
 let myArray1 = ['Sushil', 'Guru'];
 myArray1.push('Kadir');
 
+//Removing data from Array using pop()
+var myArray2 = [["Sushil", 29], ["Guru", 26]];
+var popMyArray2 = myArray2.pop();
